@@ -5,8 +5,17 @@
     <link>https://frklan.github.io/index.xml</link>
     <description>Recent content on Fredrik Andersson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 03 Dec 2016 19:41:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 05 Dec 2016 20:34:02 +0100</lastBuildDate>
     <atom:link href="https://frklan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>controKnob</title>
+      <link>https://frklan.github.io/blog/2016/12/05/controknob/</link>
+      <pubDate>Mon, 05 Dec 2016 20:34:02 +0100</pubDate>
+      
+      <guid>https://frklan.github.io/blog/2016/12/05/controknob/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>License</title>
