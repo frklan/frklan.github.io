@@ -5,8 +5,109 @@
     <link>https://frklan.github.io/post/index.xml</link>
     <description>Recent content in Post-rsses on Fredrik Andersson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 05 Dec 2016 20:34:02 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 08 Dec 2016 21:58:04 +0100</lastBuildDate>
     <atom:link href="https://frklan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Keypad-klass</title>
+      <link>https://frklan.github.io/blog/2016/12/08/keypad-klass/</link>
+      <pubDate>Thu, 08 Dec 2016 21:58:04 +0100</pubDate>
+      
+      <guid>https://frklan.github.io/blog/2016/12/08/keypad-klass/</guid>
+      <description>&lt;p&gt;Sådär, den här är jag rätt nöjd med. Jag hittar inga (större) minnesläckor och allt beter sig som det skall.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#include &amp;lt;Arduino.h&amp;gt;
+#include &amp;lt;Button.h&amp;gt;
+#include &amp;lt;LinkedList.h&amp;gt;
+
+typedef struct
+{
+  Button *_key;
+  uint8_t _keyCode;
+  uint8_t _keyModifiers;
+  uint8_t _flag = 0;
+  void (*_keyPressCallback)(uint8_t keyCode, uint8_t keyModifiers);
+} _KEYPAD_KEY;
+
+class KEYPAD
+{
+public:
+  ~KEYPAD();
+  bool addKey(Button *key, uint8_t keyCode, uint8_t keyModifiers, void (*_keyPressCallback)(uint8_t keyCode, uint8_t keyModifiers));
+  void deleteAllKeys();
+  void update();
+
+private:
+  LinkedList&amp;lt;_KEYPAD_KEY*&amp;gt; _keyPad = LinkedList&amp;lt;_KEYPAD_KEY*&amp;gt;();
+};
+
+KEYPAD::~KEYPAD()
+{
+  deleteAllKeys();
+}
+
+bool KEYPAD::addKey(Button *key, uint8_t keyCode, uint8_t keyModifiers, void (*_keyPressCallback)(uint8_t keyCode, uint8_t keyModifiers))
+{
+  _KEYPAD_KEY *k = new _KEYPAD_KEY;
+  k-&amp;gt;_key = key;
+  k-&amp;gt;_keyCode = keyCode;
+  k-&amp;gt;_keyModifiers = keyModifiers;
+  k-&amp;gt;_keyPressCallback = _keyPressCallback;
+
+  _keyPad.add(k);
+  return  true;
+}
+
+void KEYPAD::deleteAllKeys()
+{
+  _KEYPAD_KEY *k;
+
+  for(int i = 0; i &amp;lt; _keyPad.size(); i++)
+  {
+    k = _keyPad.get(i);
+
+    // remove button object and set pointers to null
+    delete k-&amp;gt;_key;
+    k-&amp;gt;_key = NULL;
+    k-&amp;gt;_keyPressCallback = NULL;
+
+    // delete _KEYPAD_KEY object that is saved in the list.
+    delete k;
+    k = NULL;
+  }
+
+  // remove all _KEYPAD_KEY objects from list
+  _keyPad.clear();
+
+  return;
+}
+
+void KEYPAD::update()
+{
+  _KEYPAD_KEY *k = NULL;
+
+  for(int i = 0; i &amp;lt; _keyPad.size(); i++)
+  {
+    k = _keyPad.get(i);
+    k-&amp;gt;_key-&amp;gt;read();
+
+    if(k-&amp;gt;_key-&amp;gt;wasPressed())
+    {
+      k-&amp;gt;_keyPressCallback(k-&amp;gt;_keyCode, k-&amp;gt;_keyModifiers);
+    }
+
+    if(k-&amp;gt;_key-&amp;gt;wasReleased())
+    {
+
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Inte så dumt att ha en callback som ropas på när knapparna trycks ned. Skall bli spännande att provköra &amp;ldquo;på riktigt&amp;rdquo;..&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Ett nytt projekt - &#34;controlKnob&#34;</title>
@@ -14,12 +115,11 @@
       <pubDate>Mon, 05 Dec 2016 20:34:02 +0100</pubDate>
       
       <guid>https://frklan.github.io/blog/2016/12/05/ett-nytt-projekt---controlknob/</guid>
-      <description>
+      <description>&lt;p&gt;Ett nytt arduino-projekt börjar ta form - controlKnob. En liten låda med ratt och en handfull knappar. &lt;br&gt;
+&lt;/p&gt;
 
-&lt;p&gt;Ett nytt arduino-projekt börjar ta form - controlKnob. En liten låda med ratt och en handfull knappar. &lt;br&gt;
-&lt;img src=&#34;https://frklan.github.io/images/controlKnob/controlKnob20161205.jpg&#34; width=&#34;550px&#34; &gt;&lt;/p&gt;
-
-&lt;p&gt;Tanken är att kunna välja verktyg eller styra funktioner i Photoshop och Blender, eventuellt blir det flera moduler som enkelt snäpps ihop till en hel kontrolpanel.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://frklan.github.io/images/controlKnob/controlKnob20161205.jpg&#34; width=&#34;550px&#34; &gt; &lt;br&gt;
+Tanken är att kunna välja verktyg eller styra funktioner i Photoshop och Blender, eventuellt blir det flera moduler som enkelt snäpps ihop till en hel kontrolpanel.&lt;br&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;en-klass-för-ett-tangenbord&#34;&gt;en klass för ett tangenbord?&lt;/h3&gt;
 
@@ -28,8 +128,7 @@
 Kan jag anvädna den?
 &lt;img src=&#34;https://frklan.github.io/images/controlKnob/keypadclassnextkey.png&#34; &gt;
 &lt;img src=&#34;https://frklan.github.io/images/controlKnob/keypadclassuse.png&#34; &gt;
-Aningens bökigt, kanske? Får fila lite mer, eventuellt kan jag flytta in reaktionen på knapparna i klassen också&amp;hellip;/de&lt;/p&gt;
-</description>
+Aningens bökigt, kanske? Får fila lite mer, eventuellt kan jag flytta in reaktionen på knapparna i klassen också..&lt;/p&gt;</description>
     </item>
     
     <item>

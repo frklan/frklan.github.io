@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>C&#43;&#43; &middot; Fredrik Andersson</title>
+  <title>Keypad-klass &middot; Fredrik Andersson</title>
 
   
   <link rel="stylesheet" href="https://frklan.github.io/css/poole.css">
@@ -27,10 +27,10 @@
   
   
   
-  <link href="https://frklan.github.io/categories/c&#43;&#43;/index.xml" rel="alternate" type="application/rss+xml" title="Fredrik Andersson &middot; Fredrik Andersson" />
+  
 
   <meta name="description" content="...">
-  <meta name="keywords" content="arduino,openhardware,gnu">
+  <meta name="keywords" content="arduino,c&#43;&#43;,controlKnob">
   
 </head>
 <body>
@@ -78,31 +78,113 @@
 
 
 <div class="content container">
-  <ul class="posts">
-  
-    <li><a href="https://frklan.github.io/blog/2016/12/08/keypad-klass/">Keypad-klass</a>
+  <div class="post">
+    <h1 class="post-title">Keypad-klass</h1>
+    <span class="post-date">Dec 8, 2016
     
-    &middot;
+    <br/>
     <a class="label" href="https://frklan.github.io/categories/arduino">arduino</a><a class="label" href="https://frklan.github.io/categories/c&#43;&#43;">c&#43;&#43;</a>
     </span>
-    &middot; <time>Dec 8, 2016</time></li>
+    <p>Sådär, den här är jag rätt nöjd med. Jag hittar inga (större) minnesläckor och allt beter sig som det skall.</p>
+
+<p></p>
+
+<pre><code>#include &lt;Arduino.h&gt;
+#include &lt;Button.h&gt;
+#include &lt;LinkedList.h&gt;
+
+typedef struct
+{
+  Button *_key;
+  uint8_t _keyCode;
+  uint8_t _keyModifiers;
+  uint8_t _flag = 0;
+  void (*_keyPressCallback)(uint8_t keyCode, uint8_t keyModifiers);
+} _KEYPAD_KEY;
+
+class KEYPAD
+{
+public:
+  ~KEYPAD();
+  bool addKey(Button *key, uint8_t keyCode, uint8_t keyModifiers, void (*_keyPressCallback)(uint8_t keyCode, uint8_t keyModifiers));
+  void deleteAllKeys();
+  void update();
+
+private:
+  LinkedList&lt;_KEYPAD_KEY*&gt; _keyPad = LinkedList&lt;_KEYPAD_KEY*&gt;();
+};
+
+KEYPAD::~KEYPAD()
+{
+  deleteAllKeys();
+}
+
+bool KEYPAD::addKey(Button *key, uint8_t keyCode, uint8_t keyModifiers, void (*_keyPressCallback)(uint8_t keyCode, uint8_t keyModifiers))
+{
+  _KEYPAD_KEY *k = new _KEYPAD_KEY;
+  k-&gt;_key = key;
+  k-&gt;_keyCode = keyCode;
+  k-&gt;_keyModifiers = keyModifiers;
+  k-&gt;_keyPressCallback = _keyPressCallback;
+
+  _keyPad.add(k);
+  return  true;
+}
+
+void KEYPAD::deleteAllKeys()
+{
+  _KEYPAD_KEY *k;
+
+  for(int i = 0; i &lt; _keyPad.size(); i++)
+  {
+    k = _keyPad.get(i);
+
+    // remove button object and set pointers to null
+    delete k-&gt;_key;
+    k-&gt;_key = NULL;
+    k-&gt;_keyPressCallback = NULL;
+
+    // delete _KEYPAD_KEY object that is saved in the list.
+    delete k;
+    k = NULL;
+  }
+
+  // remove all _KEYPAD_KEY objects from list
+  _keyPad.clear();
+
+  return;
+}
+
+void KEYPAD::update()
+{
+  _KEYPAD_KEY *k = NULL;
+
+  for(int i = 0; i &lt; _keyPad.size(); i++)
+  {
+    k = _keyPad.get(i);
+    k-&gt;_key-&gt;read();
+
+    if(k-&gt;_key-&gt;wasPressed())
+    {
+      k-&gt;_keyPressCallback(k-&gt;_keyCode, k-&gt;_keyModifiers);
+    }
+
+    if(k-&gt;_key-&gt;wasReleased())
+    {
+
+    }
+  }
+}
+</code></pre>
+
+<p>Inte så dumt att ha en callback som ropas på när knapparna trycks ned. Skall bli spännande att provköra &ldquo;på riktigt&rdquo;..</p>
+  </div>
   
-    <li><a href="https://frklan.github.io/blog/2016/12/05/ett-nytt-projekt---controlknob/">Ett nytt projekt - &#34;controlKnob&#34;</a>
-    
-    &middot;
-    <a class="label" href="https://frklan.github.io/categories/arduino">arduino</a><a class="label" href="https://frklan.github.io/categories/c&#43;&#43;">c&#43;&#43;</a><a class="label" href="https://frklan.github.io/categories/controlknob">controlKnob</a>
-    </span>
-    &middot; <time>Dec 5, 2016</time></li>
-  
-    <li><a href="https://frklan.github.io/blog/2016/12/03/tft-clock/">TFT clock</a>
-    
-    &middot;
-    <a class="label" href="https://frklan.github.io/categories/arduino">arduino</a><a class="label" href="https://frklan.github.io/categories/esp8266">esp8266</a><a class="label" href="https://frklan.github.io/categories/c&#43;&#43;">c&#43;&#43;</a>
-    </span>
-    &middot; <time>Dec 3, 2016</time></li>
-  
-  </ul>
 </div>
+
+
+
+
 <script src="https://frklan.github.io/js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 </body>

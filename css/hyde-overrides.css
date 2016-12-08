@@ -18,3 +18,11 @@
 .lead {
   font-size: 1rem;
 }
+
+.hljs {
+  font-size: .65rem;
+}
+
+.container {
+  max-width: 45rem;
+}

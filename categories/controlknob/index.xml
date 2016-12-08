@@ -13,12 +13,11 @@
       <pubDate>Mon, 05 Dec 2016 20:34:02 +0100</pubDate>
       
       <guid>https://frklan.github.io/blog/2016/12/05/ett-nytt-projekt---controlknob/</guid>
-      <description>
+      <description>&lt;p&gt;Ett nytt arduino-projekt börjar ta form - controlKnob. En liten låda med ratt och en handfull knappar. &lt;br&gt;
+&lt;/p&gt;
 
-&lt;p&gt;Ett nytt arduino-projekt börjar ta form - controlKnob. En liten låda med ratt och en handfull knappar. &lt;br&gt;
-&lt;img src=&#34;https://frklan.github.io/images/controlKnob/controlKnob20161205.jpg&#34; width=&#34;550px&#34; &gt;&lt;/p&gt;
-
-&lt;p&gt;Tanken är att kunna välja verktyg eller styra funktioner i Photoshop och Blender, eventuellt blir det flera moduler som enkelt snäpps ihop till en hel kontrolpanel.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://frklan.github.io/images/controlKnob/controlKnob20161205.jpg&#34; width=&#34;550px&#34; &gt; &lt;br&gt;
+Tanken är att kunna välja verktyg eller styra funktioner i Photoshop och Blender, eventuellt blir det flera moduler som enkelt snäpps ihop till en hel kontrolpanel.&lt;br&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;en-klass-för-ett-tangenbord&#34;&gt;en klass för ett tangenbord?&lt;/h3&gt;
 
@@ -27,8 +26,7 @@
 Kan jag anvädna den?
 &lt;img src=&#34;https://frklan.github.io/images/controlKnob/keypadclassnextkey.png&#34; &gt;
 &lt;img src=&#34;https://frklan.github.io/images/controlKnob/keypadclassuse.png&#34; &gt;
-Aningens bökigt, kanske? Får fila lite mer, eventuellt kan jag flytta in reaktionen på knapparna i klassen också&amp;hellip;/de&lt;/p&gt;
-</description>
+Aningens bökigt, kanske? Får fila lite mer, eventuellt kan jag flytta in reaktionen på knapparna i klassen också..&lt;/p&gt;</description>
     </item>
     
   </channel>
