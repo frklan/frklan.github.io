@@ -5,8 +5,34 @@
     <link>https://frklan.github.io/index.xml</link>
     <description>Recent content on Fredrik Andersson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 08 Dec 2016 21:58:04 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 11 Dec 2016 21:07:42 +0100</lastBuildDate>
     <atom:link href="https://frklan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Handla prylar på eBay</title>
+      <link>https://frklan.github.io/blog/2016/12/11/handla-prylar-p%C3%A5-ebay/</link>
+      <pubDate>Sun, 11 Dec 2016 21:07:42 +0100</pubDate>
+      
+      <guid>https://frklan.github.io/blog/2016/12/11/handla-prylar-p%C3%A5-ebay/</guid>
+      <description>&lt;p&gt;Lysdioder, tangenbordsknappar, tangenttoppar, kondingar och en del annat som behövs för controlKnob-projektet beställt på eBay. Synd att det tar sån gräslig tid att få hem grejjerna..&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img src=&#34;https://frklan.github.io/images/ebayshopping161211.png&#34;  width=&#34;550px&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;märkliga-ebay-priser&#34;&gt;Märkliga eBay-priser&lt;/h3&gt;
+
+&lt;p&gt;Något jag inte riktigt fattar är hur det går att köpa en färdig atmega32u4-baserad arduino-klon för ~35 spänn..
+&lt;img src=&#34;https://frklan.github.io/images/promicro.png&#34; &gt;&lt;/p&gt;
+
+&lt;p&gt;..när lösa processorer går lös minst 40 kr, för att inte tala om att köpa från svenska affärer!
+&lt;img src=&#34;https://frklan.github.io/images/atmega32u4-au.png&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Jag skulle helst köra hela controlKnob-projektet på ett egen mönsterkort istället för att &amp;ldquo;sandwitcha&amp;rdquo; en pro micro, men med sånna komponentpriser är det inte lönt.. Råkar man välja fel säljare blir det ännu dyrare.
+&lt;img src=&#34;https://frklan.github.io/images/atmega32u4-au333.png&#34; &gt;
+Tur det är fri frakt i alla fall.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Keypad-klass</title>
