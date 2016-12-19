@@ -5,8 +5,24 @@
     <link>https://frklan.github.io/post/index.xml</link>
     <description>Recent content in Post-rsses on Fredrik Andersson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 11 Dec 2016 21:07:42 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 19 Dec 2016 21:40:43 +0100</lastBuildDate>
     <atom:link href="https://frklan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Måla med blender</title>
+      <link>https://frklan.github.io/blog/2016/12/19/m%C3%A5la-med-blender/</link>
+      <pubDate>Mon, 19 Dec 2016 21:40:43 +0100</pubDate>
+      
+      <guid>https://frklan.github.io/blog/2016/12/19/m%C3%A5la-med-blender/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.blender.org/&#34;&gt;Blender&lt;/a&gt; är ett gräsligt roligt program, här kan man sitta bort många timmar! &lt;br&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Jag håller på att lära mig det pånytt efter ett års uppehåll, har kommit en liten bit påväg.
+&lt;img src=&#34;https://frklan.github.io/images/mala-med-blender/blender.png&#34;&gt;
+Stötte just på ett smärre problem - blender vägrar spara reder-outputen dit jag ber den, märkligt..&lt;/br&gt;&lt;/p&gt;
+
+&lt;p&gt;Hursomhelst, vill jag försöka göra en modell av en kaffe/espressomugg som jag kan gjuta i lera med en metod kallad &amp;ldquo;slip casting&amp;rdquo;: &lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/puypgKmF75s&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt; Dessutom har jag en idé tll en kortfilm där jag vill animera en av huvudrollerna.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Handla prylar på eBay</title>
