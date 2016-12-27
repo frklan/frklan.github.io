@@ -14,21 +14,28 @@
       <pubDate>Sat, 03 Dec 2016 14:30:48 +0100</pubDate>
       
       <guid>https://frklan.github.io/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://farm8.staticflickr.com/7353/buddyicons/39190652@N03_r.jpg?1378581704&#34; &gt;
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://farm8.staticflickr.com/7353/buddyicons/39190652@N03_r.jpg?1378581704&#34; &gt;
 Hej, jag heter Fredrik Andersson och bor i Borås, Sverige.&lt;/p&gt;
 
-&lt;p&gt;På &lt;a href=&#34;https://frklan.github.io&#34;&gt;frklan.github.io&lt;/a&gt; samlar jag mina elektronik- och programmeringsprojekt, antagligen smyger jag då och då in lite fotografi-prat också.&lt;/p&gt;
+&lt;p&gt;På &lt;a href=&#34;https://frklan.github.io&#34;&gt;frklan.github.io&lt;/a&gt; samlar jag mina hobbyprojekt och då framförallt inom foto, elektronik och programmering.&lt;/p&gt;
 
-&lt;p&gt;Jag kan inte bestämma mig om &lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; eller &lt;a href=&#34;https://gitlab.com&#34;&gt;Gitlab&lt;/a&gt; är bäst. Github är så klart störst och har stöd överallt, men på Gitlab kan man få obegränsat antal privata repon; perfekt när man inte är rikigt redo att visa vilken röra man ställt till med.&lt;/p&gt;
+&lt;h3 id=&#34;foto&#34;&gt;Foto&lt;/h3&gt;
 
-&lt;p&gt;Jag finns på bägge, så klart.&lt;/p&gt;
+&lt;p&gt;Min största hobby är analogfoto i allmänhet och gamla historiska processer i synnerhet. Min favoritprocess är &lt;a href=&#34;https://en.wikipedia.org/wiki/Collodion_process&#34;&gt;våtplåtsfoto&lt;/a&gt;, där jag själv både tillverkar filmen, exponerar (såklart) och framkallar inom ett par 10 minuter.
+&lt;img src=&#34;https://scontent-ams3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13437236_471663493032320_2143446448_n.jpg?ig_cache_key=MTI4MTM3MzkyMjE1NTA0Nzg5Nw%3D%3D.2&#34;&gt;
+Bilderna fotar jag direkt på svarteloxerad aliminium-plåt (tintype) eller glas (ambrotype). Ambrotypier kan kopieras direkt till papper, men tintype måste skannas och ett negativ printas först. Kopieringen gör jag oftas som cyanotypi eller saltprint. &lt;br&gt; &lt;br&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/frklan&#34;&gt;github.com/frklan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gitlab.com/frklan&#34;&gt;gitlab.com/frklan&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://scontent-ams3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/13739563_330671173931569_273314837_n.jpg?ig_cache_key=MTI5ODc0MDEyMTEyMTcxNTEyMA%3D%3D.2&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;Mina bilder finns på &lt;a href=&#34;https://secure.flickr.com/photos/39190652@N03/&#34;&gt;flickr&lt;/a&gt; och &lt;a href=&#34;https://www.instagram.com/frklan/&#34;&gt;instagram&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Följ mig på &lt;a href=&#34;https://www.instagram.com/frklan/&#34;&gt;Instagram&lt;/a&gt; eller &lt;a href=&#34;https://secure.flickr.com/photos/39190652@N03/&#34;&gt;flickr&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;elektronik-och-programmering&#34;&gt;Elektronik och programmering&lt;/h3&gt;
+
+&lt;p&gt;Professionellt jobbar jag som testutvecklare och teknisk ledare på ett storbolag där jag bland annat kodar C#, Python och Labview. Privat blir det framförallt C/C++ för arduino-kloner, favoriten är nodeMCU/ESP8266 och Sparkfun Pro Micro.&lt;/p&gt;
+
+&lt;p&gt;Projekt jag törs visa finns på &lt;a href=&#34;https://gitlab.com/frklan&#34;&gt;gitlab.com/frklan&lt;/a&gt; och &lt;a href=&#34;https://github.com/frklan&#34;&gt;github.com/frklan&lt;/a&gt;. Jag kan inte bestämma mig vilken om är bäst; Github är så klart störst och har stöd överallt, men på Gitlab kan man få obegränsat antal privata repon; perfekt när man inte är rikigt redo att visa vilken röra man ställt till med.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;i class=&#34;fa fa-apple fa-1x&#34;&gt;&lt;/i&gt;&lt;/center&gt;&lt;/p&gt;
 </description>
