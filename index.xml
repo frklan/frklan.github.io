@@ -5,8 +5,46 @@
     <link>https://frklan.github.io/index.xml</link>
     <description>Recent content on Fredrik Andersson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Feb 2017 10:38:41 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 12 Mar 2017 17:47:17 +0100</lastBuildDate>
     <atom:link href="https://frklan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RunnerGame</title>
+      <link>https://frklan.github.io/blog/2017/03/12/runnergame/</link>
+      <pubDate>Sun, 12 Mar 2017 17:47:17 +0100</pubDate>
+      
+      <guid>https://frklan.github.io/blog/2017/03/12/runnergame/</guid>
+      <description>&lt;p&gt;Härromveckan blev jag sugen på att lära mig Unity och spelprogrammering. Lekte lite med SpriteKit i Swift för runt ett-å-ett-halvt år sen men det blev aldigt nåt vettigt.&lt;br /&gt;
+
+&lt;p&gt;Man kan inte beskylla Unity för att vara vidare självinstruerande första gången man startar det, men efter ett par minuter på youtube känns interfacet och kopplingen mot c# är rikigt snygg. Däremot suger kodeditorn MonoDevelop rikgit ordentligt; den har nån fix idé att formatera koden heltokigt. Som tur är går det att justera, även om man får spendera bra mycket tid i inställningsdialogen.
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;Nåväl, efter en halv helg har jag fått ihop ett litet fånigt springspel. Inte mycket att göra annat än att rusa mot högre och högre poäng, vilket bara blir krångligare jum er man försöker eftersom jag hittade på en rent elak poängräknare som minskar minar poängen med 27% så fort man hoppar:
+ &lt;p/&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;score = score - score / 2.7f;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;link rel=&#34;shortcut icon&#34; href=&#34;https://frklan.github.io/post/RunnerGame0312/TemplateData/favicon.ico&#34; /&gt;
+&lt;script src=&#34;https://frklan.github.io/post/RunnerGame0312/TemplateData/UnityProgress.js&#34;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body class=&#34;template&#34;&gt;
+&lt;div class=&#34;template-wrap clear&#34;&gt;
+  &lt;canvas class=&#34;emscripten&#34; id=&#34;canvas&#34; oncontextmenu=&#34;event.preventDefault()&#34; height=&#34;600px&#34; width=&#34;960px&#34;&gt;&lt;/canvas&gt;
+  &lt;br&gt;
+  &lt;div class=&#34;logo&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/div&gt;
+&lt;script src=&#34;https://frklan.github.io/post/RunnerGame0312/runner.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://frklan.github.io/post/RunnerGame0312/Release/UnityLoader.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;!------&gt;
+
+&lt;p&gt;Tiles kommer från &lt;a href=&#34;http://blog.spiralgraphics.biz/2011/01/mystery-forest-tile-set.html&#34;&gt;Spiral Blog&lt;/a&gt;&lt;br/&gt;
+Ninja-spiten hittade jag på &lt;a href=&#34;http://opengameart.org/content/ninja-run-free-sprites&#34;&gt;opengameart.org&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Föreläsning i 3d-modellering</title>
@@ -528,6 +566,50 @@ Bilderna fotar jag direkt på svarteloxerad aliminium-plåt (tintype) eller glas
 Många av de kineser jag träffade i Peking de här dagarna, pekade uppåt och ställde frågan; &amp;ldquo;Do you know what this colour is?&amp;rdquo;. Svaret var &amp;ldquo;APEC-blue&amp;rdquo;. Termen &amp;ldquo;APEC-blue&amp;rdquo; är tvetydigt och anspelar på något vackert och flyktigt. Precis som Pekings ovanligt blå himmel de här dagarna.&lt;/p&gt;
 
 &lt;p&gt;Bilderna jag visar här är kopierade med en metod som kallas cyanotypi och ger en karakteristisk blå ton, vilket passar perfekt med mitt besök i Peking.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://frklan.github.io/blog/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frklan.github.io/blog/1/01/01/</guid>
+      <description>&lt;!doctype html&gt;
+&lt;html lang=&#34;en-us&#34;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&#34;utf-8&#34;&gt;
+    &lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=utf-8&#34;&gt;
+    &lt;title&gt;Unity WebGL Player | Runner&lt;/title&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://frklan.github.io/post/runnergame/TemplateData/style.css&#34;&gt;
+    &lt;link rel=&#34;shortcut icon&#34; href=&#34;https://frklan.github.io/post/runnergame/TemplateData/favicon.ico&#34; /&gt;
+    &lt;script src=&#34;https://frklan.github.io/post/runnergame/TemplateData/UnityProgress.js&#34;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body class=&#34;template&#34;&gt;
+    &lt;div class=&#34;template-wrap clear&#34;&gt;
+      &lt;canvas class=&#34;emscripten&#34; id=&#34;canvas&#34; oncontextmenu=&#34;event.preventDefault()&#34; height=&#34;600px&#34; width=&#34;960px&#34;&gt;&lt;/canvas&gt;
+      &lt;br&gt;
+      &lt;div class=&#34;logo&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;fullscreen&#34;&gt;&lt;img src=&#34;https://frklan.github.io/post/runnergame/TemplateData/fullscreen.png&#34; width=&#34;38&#34; height=&#34;38&#34; alt=&#34;Fullscreen&#34; title=&#34;Fullscreen&#34; onclick=&#34;SetFullscreen(1);&#34; /&gt;&lt;/div&gt;
+      &lt;div class=&#34;title&#34;&gt;Runner&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script type=&#39;text/javascript&#39;&gt;
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return &#39;true&#39; if the error is handled, otherwise &#39;false&#39;
+    compatibilitycheck: null,
+    backgroundColor: &#34;#80858B&#34;,
+    splashStyle: &#34;Dark&#34;,
+    dataUrl: &#34;/post/runnergame/Release/RunnerGame.data&#34;,
+    codeUrl: &#34;/post/runnergame/Release/RunnerGame.js&#34;,
+    asmUrl: &#34;/post/runnergame/Release/RunnerGame.asm.js&#34;,
+    memUrl: &#34;/post/runnergame/Release/RunnerGame.mem&#34;,
+  };
+&lt;/script&gt;
+&lt;script src=&#34;https://frklan.github.io/post/runnergame/Release/UnityLoader.js&#34;&gt;&lt;/script&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
     </item>
     
   </channel>
