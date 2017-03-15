@@ -5,8 +5,31 @@
     <link>https://frklan.github.io/post/index.xml</link>
     <description>Recent content in Post-rsses on Fredrik Andersson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 12 Mar 2017 17:47:17 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 15 Mar 2017 19:30:23 +0100</lastBuildDate>
     <atom:link href="https://frklan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tillverkning av gjutform</title>
+      <link>https://frklan.github.io/blog/2017/03/15/tillverkning-av-gjutform/</link>
+      <pubDate>Wed, 15 Mar 2017 19:30:23 +0100</pubDate>
+      
+      <guid>https://frklan.github.io/blog/2017/03/15/tillverkning-av-gjutform/</guid>
+      <description>&lt;p&gt;I måndags var det äntligen få tillverka min gips-gjutform, Negar höll lektion i gjutformstillverkning på &lt;a href=&#34;http://www.taget.se&#34;&gt;Kulturföreningen Tåget&lt;/a&gt;. Espressokoppen jag &lt;a href=&#34;https://frklan.github.io/blog/2016/12/19/måla-med-blender/&#34;&gt;designade i julas&lt;/a&gt; är ett stort steg mot att bli verklighet!
+
+&lt;p&gt;
+&lt;img src=&#34;https://frklan.github.io/images/gjutform/IMG_2359+62.png&#34; width=&#34;700px&#34;&gt;
+Efter mycket pill och jobb med att täta träramen, först med lera på insidan och sedan tjocktblandat gips på utsidan kunde jag till slut hälla tunnare gips i formen.
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img src=&#34;https://frklan.github.io/images/gjutform/IMG_2358+63.png&#34; width=&#34;700px&#34;&gt;
+Första halvan blev klar måndags och sista delen igår, efter att gipset fått bränna strax över en timma var det dags att se om allt var ett hopplöst fiasko eller inte. Till att börja med såg det anska mörkt ut då de två delarna satt ihop. Som berget.. Med en hel del våld, gy och svordommar fick jag tillslut isär halvorna.
+&lt;/p&gt;
+&lt;img src=&#34;https://frklan.github.io/images/gjutform/IMG_2364.jpg&#34;&gt;
+&lt;p&gt;
+I slutändan blev det en jättefin gjutform och det borde gå tokfint att köra en hel hög koppar. Tack Negar för all hjälp med gjutformen!
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>RunnerGame</title>
@@ -289,50 +312,6 @@ Aningens bökigt, kanske? Får fila lite mer, eventuellt kan jag flytta in reakt
 Många av de kineser jag träffade i Peking de här dagarna, pekade uppåt och ställde frågan; &amp;ldquo;Do you know what this colour is?&amp;rdquo;. Svaret var &amp;ldquo;APEC-blue&amp;rdquo;. Termen &amp;ldquo;APEC-blue&amp;rdquo; är tvetydigt och anspelar på något vackert och flyktigt. Precis som Pekings ovanligt blå himmel de här dagarna.&lt;/p&gt;
 
 &lt;p&gt;Bilderna jag visar här är kopierade med en metod som kallas cyanotypi och ger en karakteristisk blå ton, vilket passar perfekt med mitt besök i Peking.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://frklan.github.io/blog/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://frklan.github.io/blog/1/01/01/</guid>
-      <description>&lt;!doctype html&gt;
-&lt;html lang=&#34;en-us&#34;&gt;
-  &lt;head&gt;
-    &lt;meta charset=&#34;utf-8&#34;&gt;
-    &lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=utf-8&#34;&gt;
-    &lt;title&gt;Unity WebGL Player | Runner&lt;/title&gt;
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://frklan.github.io/post/runnergame/TemplateData/style.css&#34;&gt;
-    &lt;link rel=&#34;shortcut icon&#34; href=&#34;https://frklan.github.io/post/runnergame/TemplateData/favicon.ico&#34; /&gt;
-    &lt;script src=&#34;https://frklan.github.io/post/runnergame/TemplateData/UnityProgress.js&#34;&gt;&lt;/script&gt;
-  &lt;/head&gt;
-  &lt;body class=&#34;template&#34;&gt;
-    &lt;div class=&#34;template-wrap clear&#34;&gt;
-      &lt;canvas class=&#34;emscripten&#34; id=&#34;canvas&#34; oncontextmenu=&#34;event.preventDefault()&#34; height=&#34;600px&#34; width=&#34;960px&#34;&gt;&lt;/canvas&gt;
-      &lt;br&gt;
-      &lt;div class=&#34;logo&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;fullscreen&#34;&gt;&lt;img src=&#34;https://frklan.github.io/post/runnergame/TemplateData/fullscreen.png&#34; width=&#34;38&#34; height=&#34;38&#34; alt=&#34;Fullscreen&#34; title=&#34;Fullscreen&#34; onclick=&#34;SetFullscreen(1);&#34; /&gt;&lt;/div&gt;
-      &lt;div class=&#34;title&#34;&gt;Runner&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;script type=&#39;text/javascript&#39;&gt;
-  var Module = {
-    TOTAL_MEMORY: 268435456,
-    errorhandler: null,			// arguments: err, url, line. This function must return &#39;true&#39; if the error is handled, otherwise &#39;false&#39;
-    compatibilitycheck: null,
-    backgroundColor: &#34;#80858B&#34;,
-    splashStyle: &#34;Dark&#34;,
-    dataUrl: &#34;/post/runnergame/Release/RunnerGame.data&#34;,
-    codeUrl: &#34;/post/runnergame/Release/RunnerGame.js&#34;,
-    asmUrl: &#34;/post/runnergame/Release/RunnerGame.asm.js&#34;,
-    memUrl: &#34;/post/runnergame/Release/RunnerGame.mem&#34;,
-  };
-&lt;/script&gt;
-&lt;script src=&#34;https://frklan.github.io/post/runnergame/Release/UnityLoader.js&#34;&gt;&lt;/script&gt;
-
-  &lt;/body&gt;
-&lt;/html&gt;
-</description>
     </item>
     
   </channel>
