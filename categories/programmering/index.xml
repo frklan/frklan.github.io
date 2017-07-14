@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fredrik Andersson</title>
+    <link>https://frklan.github.io/categories/programmering/index.xml</link>
+    <description>Recent content on Fredrik Andersson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="https://frklan.github.io/categories/programmering/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PlFrMr - The Game to Rule Them All</title>
+      <link>https://frklan.github.io/blog/2017/04/29/plfrmr---the-game-to-rule-them-all/</link>
+      <pubDate>Sat, 29 Apr 2017 20:16:16 +0200</pubDate>
+      
+      <guid>https://frklan.github.io/blog/2017/04/29/plfrmr---the-game-to-rule-them-all/</guid>
+      <description>&lt;p&gt;Jag har jobbat på spring-spelet från &lt;a href=&#34;https://frklan.github.io/blog/2017/03/12/runnergame/&#34;&gt;härromveckan&lt;/a&gt;, jag tröttna på ninja-spriten så jag dumpade honom i ett av hålen och fyllde igen.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img src=&#34;https://frklan.github.io/images/PlFrMr/PlFrMr1.png&#34; width=500px&gt;&lt;/p&gt;
+
+&lt;p&gt;Nu kan man både hoppa och samla små mynt. Ingen belöning eller poäng dock. Dessutom finns det elaka monster som försöker ha ihjäl en.  &lt;a href=&#34;http://www.twitch.tv/&#34;&gt;Emil&lt;/a&gt; fick agera fiende.&lt;/p&gt;
+
+&lt;p&gt;Jag snodde en hel del idéer och kod från &lt;a href=&#34;https://www.twitch.tv/quill18/&#34;&gt;Quill18&lt;/a&gt; för att sköta level-genereringen, det betyder att spelet faktiskt redan nu är moddningsbart.. Tyvärr betyder det att lagringen av level-datan inte är kompatibel med webGL då den försöker accessa filer på disken (även om chrome faktiskt spottar ur sig rätt address i konsolen, men gnäller på att uri:n inte finns). Vill man provspela finns ett installationspaket &lt;a href=&#34;pLtFrMr.pkg&#34;&gt;här&lt;/a&gt;. Observera att installeraren inte är signerad!
+&lt;img src=&#34;https://frklan.github.io/images/PlFrMr/PlFrMr2.png&#34; width=500px&gt;&lt;/p&gt;
+
+&lt;p&gt;Dessvärre har jag mer eller mindre redan gett upp hoppet att få en startskärm eller ens nån fräck animering när man kommer &amp;ldquo;i mål&amp;rdquo;, vi får se vad som händer framöver.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
