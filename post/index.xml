@@ -14,15 +14,15 @@
       <pubDate>Sat, 29 Apr 2017 20:16:16 +0200</pubDate>
       
       <guid>https://frklan.github.io/blog/2017/04/29/plfrmr---the-game-to-rule-them-all/</guid>
-      <description>&lt;p&gt;Jag har jobbat på spring-spelet från &lt;a href=&#34;https://frklan.github.io/blog/2017/03/12/runnergame/&#34;&gt;härromveckan&lt;/a&gt;, jag tröttna på ninja-spriten så jag dumpade honom i ett av hålen och fyllde igen.&lt;/p&gt;
+      <description>&lt;p&gt;Jag har jobbat på spring-spelet från &lt;a href=&#34;https://frklan.github.io/blog/2017/03/12/runnergame/&#34;&gt;härromveckan&lt;/a&gt;, jag tröttnade på ninja-spriten så jag dumpade honom i ett av hålen och fyllde igen.&lt;/p&gt;
 
 &lt;p&gt;
-&lt;img src=&#34;https://frklan.github.io/images/PlFrMr/PlFrMr1.png&#34; width=500px&gt;&lt;/p&gt;
+&lt;img src=&#34;https://frklan.github.io/images/PlFrMr/PlFrMr1.png&#34; width=600px&gt;&lt;/p&gt;
 
-&lt;p&gt;Nu kan man både hoppa och samla små mynt. Ingen belöning eller poäng dock. Dessutom finns det elaka monster som försöker ha ihjäl en.  &lt;a href=&#34;http://www.twitch.tv/&#34;&gt;Emil&lt;/a&gt; fick agera fiende.&lt;/p&gt;
+&lt;p&gt;Nu kan man både hoppa och samla små mynt. Ingen belöning eller poäng dock. Däremot finns det elaka monster som försöker ha ihjäl en.  &lt;a href=&#34;http://www.twitch.tv/&#34;&gt;Emil&lt;/a&gt; fick agera fiende.&lt;/p&gt;
 
-&lt;p&gt;Jag snodde en hel del idéer och kod från &lt;a href=&#34;https://www.twitch.tv/quill18/&#34;&gt;Quill18&lt;/a&gt; för att sköta level-genereringen, det betyder att spelet faktiskt redan nu är moddningsbart.. Tyvärr betyder det att lagringen av level-datan inte är kompatibel med webGL då den försöker accessa filer på disken (även om chrome faktiskt spottar ur sig rätt address i konsolen, men gnäller på att uri:n inte finns). Vill man provspela finns ett installationspaket &lt;a href=&#34;https://frklan.github.io/post/PlFrMr/pLtFrMr.pkg&#34;&gt;här&lt;/a&gt;. Observera att installeraren inte är signerad!
-&lt;img src=&#34;https://frklan.github.io/images/PlFrMr/PlFrMr2.png&#34; width=500px&gt;&lt;/p&gt;
+&lt;p&gt;Jag snodde en hel del idéer och kod från &lt;a href=&#34;https://www.twitch.tv/quill18/&#34;&gt;Quill18&lt;/a&gt; för att ladda nivå-miljön från en bildfil på disk, det betyder att spelet faktiskt redan nu är moddningsbart.. Tyvärr visade det sig att lagringen av level-datan inte är kompatibel med webGL  (även om chrome faktiskt spottar ur sig rätt address i konsolen). Vill man provspela finns ett installationspaket &lt;a href=&#34;https://frklan.github.io/post/PlFrMr/pLtFrMr.pkg&#34;&gt;här&lt;/a&gt;. Observera att installeraren inte är signerad (md5 hashen är &amp;ldquo;F0C99DCAE135354EC445847C23DD2D60&amp;rdquo;)!
+&lt;img src=&#34;https://frklan.github.io/images/PlFrMr/PlFrMr2.png&#34; width=600px&gt;&lt;/p&gt;
 
 &lt;p&gt;Dessvärre har jag mer eller mindre redan gett upp hoppet att få en startskärm eller ens nån fräck animering när man kommer &amp;ldquo;i mål&amp;rdquo;, vi får se vad som händer framöver.&lt;/p&gt;</description>
     </item>
