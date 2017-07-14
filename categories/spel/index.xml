@@ -28,5 +28,43 @@
 &lt;p&gt;Dessvärre har jag mer eller mindre redan gett upp hoppet att få en startskärm eller nån fräck animering när man kommer &amp;ldquo;i mål&amp;rdquo;. Vi får se vad som händer framöver, men det mesta lutar på att jag börjar om med ett mindre projekt.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>RunnerGame</title>
+      <link>https://frklan.github.io/blog/2017/03/12/runnergame/</link>
+      <pubDate>Sun, 12 Mar 2017 17:47:17 +0100</pubDate>
+      
+      <guid>https://frklan.github.io/blog/2017/03/12/runnergame/</guid>
+      <description>&lt;p&gt;Härromveckan blev jag sugen på att lära mig Unity och spelprogrammering igen, lekte lite med SpriteKit i Swift för runt ett-å-ett-halvt år sen men det blev aldrigt nåt vettigt.&lt;br /&gt;
+
+&lt;p&gt;Man kan inte beskylla Unity för att vara vidare självinstruerande, men efter en stund på youtube känns interfacet och kopplingen mot C# är riktigt okej. Däremot suger kodeditorn MonoDevelop; den har nån fix idé att formatera koden heltokigt. Som tur är går det att justera, även om man får spendera bra mycket tid i inställningsdialogen.
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;Nåväl, efter en halv helg har jag fått ihop en liten fånigt springgrej. Inte mycket att göra annat än att rusa mot högre och högre poäng, vilket bara blir krångligare ju mer man försöker eftersom jag hittade på en rent elak poängräknare som minskar poängen med 27% så fort man hoppar och hoppar man inte dör man fort som satan..
+ &lt;p/&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;score = score - score / 2.7f;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;link rel=&#34;shortcut icon&#34; href=&#34;https://frklan.github.io/post/RunnerGame0312/TemplateData/favicon.ico&#34; /&gt;
+&lt;script src=&#34;https://frklan.github.io/post/RunnerGame0312/TemplateData/UnityProgress.js&#34;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body class=&#34;template&#34;&gt;
+&lt;div class=&#34;template-wrap clear&#34;&gt;
+  &lt;canvas class=&#34;emscripten&#34; id=&#34;canvas&#34; oncontextmenu=&#34;event.preventDefault()&#34; height=&#34;600px&#34; width=&#34;960px&#34;&gt;&lt;/canvas&gt;
+  &lt;br&gt;
+  &lt;div class=&#34;logo&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/div&gt;
+&lt;script src=&#34;https://frklan.github.io/post/RunnerGame0312/runner.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://frklan.github.io/post/RunnerGame0312/Release/UnityLoader.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;!------&gt;
+
+&lt;p&gt;Tiles kommer från &lt;a href=&#34;http://blog.spiralgraphics.biz/2011/01/mystery-forest-tile-set.html&#34;&gt;Spiral Blog&lt;/a&gt;&lt;br/&gt;
+Ninja-spiten hittade jag på &lt;a href=&#34;http://opengameart.org/content/ninja-run-free-sprites&#34;&gt;opengameart.org&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
