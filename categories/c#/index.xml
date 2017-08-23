@@ -18,26 +18,24 @@
 &lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;
-Det här gick mycket bättre och med helt egen grafik och (nästan) egna ljud blev slutresultatet riktigt snyggt. Även om det kan diskuteras om det verkligen är en klon av Astroids, vi kanske skall nöjja oss med att säga &#34;inspirerat av&#34;..
-&lt;img src=&#34;https://frklan.github.io/images/SpaceWars20170625/intro.jpg&#34;&gt;
+Det här gick mycket bättre och med helt egen grafik och (nästan) egna ljud blev slutresultatet riktigt snyggt. Även om det kan diskuteras om det verkligen är en klon av Astroids - vi kanske skall nöjja oss med att säga &#34;inspirerat av&#34;..
 &lt;/p&gt;
 
 &lt;p&gt;
-Ett märkligt problem jag sprang på var att jag kallade min spelstudio för Yellow Mokey Games, vilket redan tycks finnas.. Ytterst svårt att hitta på nåt lika meningslöst men som ändå låter småroligt..
-&lt;img src=&#34;https://frklan.github.io/images/SpaceWars20170625/gameplay.jpg&#34;&gt;
+Ett märkligt problem jag sprang på var att jag kallade min spelstudio för Yellow Mokey Games, vilket tycks &lt;a href=&#34;https://www.google.se/search?q=yellow+monkey+games&#34;&gt;vara upptaget&lt;/a&gt; .. Ytterst svårt att hitta på nåt lika meningslöst men som ändå inte låter galet..
 &lt;/p&gt;
+
+&lt;p&gt;
+&lt;div id=&#34;gameContainer&#34; style=&#34;width: 960px; height: 600px&#34;&gt;&lt;/div&gt;
+&lt;/p&gt;
+
 &lt;p&gt;
 Jag har ett par idéer att utöka spelmekaniken för att göra det mer intressant, därefter kanske kanske man kan släppa det &#34;på riktigt&#34;.
 &lt;/p&gt;
 
-&lt;p&gt;&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;space-wars&#34;&gt;Space Wars&lt;/h2&gt;
-
-&lt;p&gt;Här kan man provspela&lt;br /&gt;
-Skift-tangenterna styr, vänster CTRL skjuter &lt;br /&gt;&lt;/p&gt;
-
-&lt;div id=&#34;gameContainer&#34; style=&#34;width: 960px; height: 600px&#34;&gt;&lt;/div&gt;
+&lt;p&gt;
+Observera att Skift-tangenterna styr och vänster CTRL skjuter. Hur läge kan du överleva? &lt;br /&gt;
+&lt;/p&gt;
 
 &lt;script src=&#34;https://frklan.github.io/post/SpaceWars20170625/TemplateData/UnityProgress.js&#34;&gt;&lt;/script&gt;  
 &lt;script src=&#34;https://frklan.github.io/post/SpaceWars20170625/Build/UnityLoader.js&#34;&gt;&lt;/script&gt;
