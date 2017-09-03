@@ -5,8 +5,52 @@
     <link>https://frklan.github.io/index.xml</link>
     <description>Recent content on Fredrik Andersson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 25 Jun 2017 21:26:06 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 03 Sep 2017 21:14:08 +0200</lastBuildDate>
     <atom:link href="https://frklan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fjärrstyrda lampor</title>
+      <link>https://frklan.github.io/blog/2017/09/03/fj%C3%A4rrstyrda-lampor/</link>
+      <pubDate>Sun, 03 Sep 2017 21:14:08 +0200</pubDate>
+      
+      <guid>https://frklan.github.io/blog/2017/09/03/fj%C3%A4rrstyrda-lampor/</guid>
+      <description>&lt;p&gt;Har du hört om Ikeas nya trådfria lampserie &amp;ldquo;Trådfri&amp;rdquo;? Jag skaffade ett kit för en vecka sedan..&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img src=&#34;https://imgs.aftonbladet-cdn.se/v2/images/1a572f36-84ca-4c15-92f3-112da845c07e?fit=crop&amp;h=374&amp;w=1100&amp;s=9fbc8f4532466c3b1b64a66c94cf16e021ba6d74&#34;&gt;
+
+Jo, som sagt så köpte jag ett gäng lampor, en fjärrkontroll, en dimmer och gatewayen för att styra allt från mobilen.
+&lt;/p&gt;
+Installationen var enkel, även om jag var tvungen att synka om alla lamport och fjärrkontroller för att gatewayen skulle hitta allt. Det tog kanske tio minuter.
+&lt;table &gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;img src=&#34;http://www.ikea.com/PIAimages/0489469_PE623665_S5.JPG&#34; height=&#34;250px&#34;&gt;&lt;/th&gt;
+    &lt;th&gt;&lt;img src=&#34;http://www.ikea.com/gb/en/images/customer-services/ikea-tr%C3%A5dfri-wireless-dimmer__1364355343334-s31.jpg&#34; height=&#34;250px&#34;&gt;&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+Fjärrkontrollen är riktigt bra och kan styra både stryka och färg på ljuset. Dimmern däremot, är riktigt usel; den känner av vridningen med hjälp av en accelrometer och är hyperkänslig, möjligen funkar den bättre i sin lilla hållare, fast monterad på väggen.. Ikea har utlovat Homekit-stöd så snart kan man höra mig ropa och skrika att lamporna skall släckas och tändas..
+&lt;/p&gt;
+
+&lt;p&gt;
+Än bättre blir det med appen och kan styra lamporna från mobilen. Grundtanken verkar vara att man skall styra en hel grupp (alla lampor anslutna till en fjärr) men med lite fler tryck kan man slå av och på enskilda lampor och ändra färg.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt;Fjärrstyr på riktigt&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Riktigt kul blir det när man installerar Sandy Macdonalds &lt;a href=&#34;https://github.com/sandyjmacdonald/ikea-smartlight&#34;&gt;ikea-smartlight&lt;/a&gt; bibiliotek och hackar ihop några taffliga python-scipt.. En mycket bra installationsbeskrivning finns &lt;a href=&#34;https://learn.pimoroni.com/tutorial/sandyj/controlling-ikea-tradfri-lights-from-your-pi&#34;&gt;här&lt;/a&gt; (ja, bortsett från avsnittet &amp;lsquo;API endpoints&amp;rsquo; som mest rör till det utan att ge mycket till förklaring).. Ben Hardill har ett snyggt demo i &lt;a href=&#34;https://github.com/hardillb/TRADFRI2MQTT&#34;&gt;TRADFRI2MQTT&lt;/a&gt;, men är lite för kantigt för att funka praktiskt.
+&lt;img src=&#34;https://cdn.shopify.com/s/files/1/0174/1800/products/Raspberry_Pi_Zero_W_2_of_6_grande.JPG?v=1500295010&#34; width=&#34;250px&#34;&gt;
+&lt;/p&gt;
+&lt;h3&gt;Kan grannen styra? Antagligen inte&lt;/h3&gt;
+&lt;p&gt;
+Efter lite googlande och man börjar inse att Ikea faktiskt lagt en hel del energi i implementationen, där systemen enbart är åtkomligt i det lokala nätet och all trafik är krypterad (se bland annat &lt;a href=&#34;https://home-assistant.io/blog/2017/04/17/ikea-tradfri-internet-of-things-done-right/&#34;&gt;här&lt;/a&gt;). Viss, det hade varit skojjigt att tända lamporna när man är ute på stan; å andra sida, om vi nu skall ha &amp;ldquo;smarta hem&amp;rdquo; skall de då inte kunna styra sig själva utan att vi behöver bry oss?
+&lt;/p
+&lt;p&gt;
+Ikea har lyckats skruva ihop en mycket imponerande lösning, med både hög säkerhet och lågt pris. Dessutom har Ikea valt öppna protokoll som tillåter att man styr grejjerna med egna lösningar! Bra jobbat.
+&lt;/p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>SpaceWars</title>
@@ -629,24 +673,6 @@ Bilderna fotar jag direkt på svarteloxerad aliminium-plåt (tintype) eller glas
       <guid>https://frklan.github.io/blog/2016/12/03/tft-clock/</guid>
       <description>&lt;p&gt;TFT clock finns nu på &lt;a href=&#34;https://gitlab.com/frklan/TFTclock_UTFT/&#34;&gt;gitlabs&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>12 bilder</title>
-      <link>https://frklan.github.io/blog/2016/11/07/12-bilder/</link>
-      <pubDate>Mon, 07 Nov 2016 00:00:00 +0100</pubDate>
-      
-      <guid>https://frklan.github.io/blog/2016/11/07/12-bilder/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://frklan.github.io/images/23502FT01AC01.jpg&#34; align=&#34;right&#34; width=&#34;200px&#34; &gt;&lt;/p&gt;
-
-&lt;p&gt;Mellan den 7e november och 10e december visar jag 12 bilder från Peking på &lt;a href=&#34;http://www.vastsverige.com/kulturkvarteret-pedagogien-hjo/b/235934/12-bilder-fran-Peking-pagar-7-november-10-december&#34;&gt;Kulturkvarteret Pedagogien i Hjo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Bilderna är från december 2014 och av en händelse råkade mitt besök i Peking bli samma vecka som APEC-toppmötet (Asia-Pacific Economic Cooperation). För att visa upp Peking från sin bästa sida och minska smogen hade regeringen stängt tusentals fabriker i och runt Peking, vilket resulterade i vackert vinterväder med en klarblå himmel.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://frklan.github.io/images/12_bilder_november-december_ 2016_Hjo_50x70.jpg&#34; align=&#34;right&#34; width=&#34;200px&#34;&gt;
-Många av de kineser jag träffade i Peking de här dagarna, pekade uppåt och ställde frågan; &amp;ldquo;Do you know what this colour is?&amp;rdquo;. Svaret var &amp;ldquo;APEC-blue&amp;rdquo;. Termen &amp;ldquo;APEC-blue&amp;rdquo; är tvetydigt och anspelar på något vackert och flyktigt. Precis som Pekings ovanligt blå himmel de här dagarna.&lt;/p&gt;
-
-&lt;p&gt;Bilderna jag visar här är kopierade med en metod som kallas cyanotypi och ger en karakteristisk blå ton, vilket passar perfekt med mitt besök i Peking.&lt;/p&gt;</description>
     </item>
     
   </channel>
