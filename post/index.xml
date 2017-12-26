@@ -5,8 +5,37 @@
     <link>https://frklan.github.io/post/index.xml</link>
     <description>Recent content in Post-rsses on Fredrik Andersson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 03 Sep 2017 21:14:08 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 26 Dec 2017 23:17:35 +0100</lastBuildDate>
     <atom:link href="https://frklan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Snappa en cool lins</title>
+      <link>https://frklan.github.io/blog/2017/12/26/snappa-en-cool-lins/</link>
+      <pubDate>Tue, 26 Dec 2017 23:17:35 +0100</pubDate>
+      
+      <guid>https://frklan.github.io/blog/2017/12/26/snappa-en-cool-lins/</guid>
+      <description>&lt;p&gt;Såg att snapchat släppt en IDE för att göra egna snap-effekter, var tvungen att prova göra en egen..&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Jo, snapchat här släpp en IDE &lt;a href=&#34;https://lensstudio.snapchat.com&#34;&gt;Lens Studio&lt;/a&gt;, där man kan göra egna snap-effekter helt fritt. Riktigt snygg IDE, men urusel dokumentationen. Tack vare ett par enkla demo-mallar går det trots allt att hacka ihop nåt som verkar hålla.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://storage.googleapis.com/snapchat-lens-assets/f1a09194-f02d-43ed-92b8-62e843179ff0/lensStudio/Guides/img/getting_started_panels.png&#34; alt=&#34;Lens Studio IDE&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3d-modell&#34;&gt;3D modell&lt;/h3&gt;
+
+&lt;p&gt;Det är extremt mycket jobb att rita, rigga och exportera en fungerande 3D-modell för animering. Som tur är finns det mesta på nätet; &lt;a href=&#34;https://www.mixamo.com/&#34;&gt;mixamo.com&lt;/a&gt; är till exempel extremt lättanvänt och ger väldigt fina modeller.&lt;/p&gt;
+
+&lt;p&gt;Till min första &amp;ldquo;lins&amp;rdquo; valde jag en samba-dansande krigare av Maw J Laygo. Blev riktigt snygg, men tyvärr sisådär 4 gånger större än vad Snap max godkänner. Efter en del meck i blender för att minska antalet trianglar osv, gav jag upp och letade reda på nåt annat. Det slutade i en samba-dansande minecraft-steve.. Ha ha.&lt;/p&gt;
+
+&lt;h3 id=&#34;going-live&#34;&gt;Going live&lt;/h3&gt;
+
+&lt;p&gt;Snap skall godkänna alla inskickade linser (om man vill ha dem live utan den fula &amp;ldquo;developer&amp;rdquo;-stämplen rätt över), efter en stunds spänd väntan fick jag min fösta godkänd! Fånigt? Javisst, men ack så skoj.&lt;/p&gt;
+
+&lt;p&gt;Sugen att prova? Skanna den här i snapchat:
+&lt;img src=&#34;https://frklan.github.io/images/snapcode_dancingsteve.png&#34; alt=&#34;Dancing Steve&#34; /&gt;
+Slanga sen hem (Lens Studio)[&lt;a href=&#34;https://lensstudio.snapchat.com/&#34;&gt;https://lensstudio.snapchat.com/&lt;/a&gt;] och gör nåt skoj!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Fjärrstyrda lampor</title>
