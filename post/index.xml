@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post-rsses on Fredrik Andersson</title>
-    <link>https://frklan.github.io/post/index.xml</link>
+    <link>https://www.yellowfortyfour.com/post/index.xml</link>
     <description>Recent content in Post-rsses on Fredrik Andersson</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 26 Dec 2017 23:17:35 +0100</lastBuildDate>
-    <atom:link href="https://frklan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.yellowfortyfour.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Snappa en cool lins</title>
-      <link>https://frklan.github.io/blog/2017/12/26/snappa-en-cool-lins/</link>
+      <link>https://www.yellowfortyfour.com/blog/2017/12/26/snappa-en-cool-lins/</link>
       <pubDate>Tue, 26 Dec 2017 23:17:35 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2017/12/26/snappa-en-cool-lins/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2017/12/26/snappa-en-cool-lins/</guid>
       <description>&lt;p&gt;Såg att snapchat släppt en IDE för att göra egna snap-effekter, var tvungen att prova göra en egen..&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -41,10 +41,10 @@
     
     <item>
       <title>Fjärrstyrda lampor</title>
-      <link>https://frklan.github.io/blog/2017/09/03/fj%C3%A4rrstyrda-lampor/</link>
+      <link>https://www.yellowfortyfour.com/blog/2017/09/03/fj%C3%A4rrstyrda-lampor/</link>
       <pubDate>Sun, 03 Sep 2017 21:14:08 +0200</pubDate>
       
-      <guid>https://frklan.github.io/blog/2017/09/03/fj%C3%A4rrstyrda-lampor/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2017/09/03/fj%C3%A4rrstyrda-lampor/</guid>
       <description>&lt;p&gt;Har du hört om Ikeas nya trådfria lampserie &amp;ldquo;Trådfri&amp;rdquo;? Jag skaffade ett kit för en vecka sedan..&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -85,10 +85,10 @@ Ikea har lyckats skruva ihop en mycket imponerande lösning, med både hög säk
     
     <item>
       <title>SpaceWars</title>
-      <link>https://frklan.github.io/blog/2017/06/25/spacewars/</link>
+      <link>https://www.yellowfortyfour.com/blog/2017/06/25/spacewars/</link>
       <pubDate>Sun, 25 Jun 2017 21:26:06 +0200</pubDate>
       
-      <guid>https://frklan.github.io/blog/2017/06/25/spacewars/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2017/06/25/spacewars/</guid>
       <description>&lt;p&gt;Tröttnade som sagt på mitt runner-spel, gav mig istället på att skriva en klon av det gamla Atari Astroids.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -113,8 +113,8 @@ Jag har ett par idéer att utöka spelmekaniken för att göra det mer intressan
 Observera att Skift-tangenterna styr och vänster CTRL skjuter. Hur läge kan du överleva? &lt;br /&gt;
 &lt;/p&gt;
 
-&lt;script src=&#34;https://frklan.github.io/post/SpaceWars20170625/TemplateData/UnityProgress.js&#34;&gt;&lt;/script&gt;  
-&lt;script src=&#34;https://frklan.github.io/post/SpaceWars20170625/Build/UnityLoader.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.yellowfortyfour.com/post/SpaceWars20170625/TemplateData/UnityProgress.js&#34;&gt;&lt;/script&gt;  
+&lt;script src=&#34;https://www.yellowfortyfour.com/post/SpaceWars20170625/Build/UnityLoader.js&#34;&gt;&lt;/script&gt;
 &lt;script&gt;
   var gameInstance = UnityLoader.instantiate(&#34;gameContainer&#34;, &#34;/post/SpaceWars20170625/Build/SpaceWars.json&#34;, {onProgress: UnityProgress});
 &lt;/script&gt;</description>
@@ -122,43 +122,43 @@ Observera att Skift-tangenterna styr och vänster CTRL skjuter. Hur läge kan du
     
     <item>
       <title>PlFrMr - The Game to Rule Them All</title>
-      <link>https://frklan.github.io/blog/2017/04/29/plfrmr---the-game-to-rule-them-all/</link>
+      <link>https://www.yellowfortyfour.com/blog/2017/04/29/plfrmr---the-game-to-rule-them-all/</link>
       <pubDate>Sat, 29 Apr 2017 20:16:16 +0200</pubDate>
       
-      <guid>https://frklan.github.io/blog/2017/04/29/plfrmr---the-game-to-rule-them-all/</guid>
-      <description>&lt;p&gt;Jag har jobbat på spring-spelet från &lt;a href=&#34;https://frklan.github.io/blog/2017/03/12/runnergame/&#34;&gt;härromveckan&lt;/a&gt;, jag tröttnade på ninja-spriten så jag dumpade honom i ett av hålen och fyllde igen.&lt;/p&gt;
+      <guid>https://www.yellowfortyfour.com/blog/2017/04/29/plfrmr---the-game-to-rule-them-all/</guid>
+      <description>&lt;p&gt;Jag har jobbat på spring-spelet från &lt;a href=&#34;https://www.yellowfortyfour.com/blog/2017/03/12/runnergame/&#34;&gt;härromveckan&lt;/a&gt;, jag tröttnade på ninja-spriten så jag dumpade honom i ett av hålen och fyllde igen.&lt;/p&gt;
 
 &lt;p&gt;
-&lt;img src=&#34;https://frklan.github.io/images/PlFrMr/PlFrMr1.png&#34; width=600px&gt;&lt;/p&gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/PlFrMr/PlFrMr1.png&#34; width=600px&gt;&lt;/p&gt;
 
 &lt;p&gt;Nu kan man både hoppa och samla små mynt. Ingen belöning eller poäng dock. Däremot finns det elaka monster som försöker ha ihjäl en.  &lt;a href=&#34;http://www.twitch.tv/&#34;&gt;Emil&lt;/a&gt; fick agera fiende.&lt;/p&gt;
 
 &lt;p&gt;Jag snodde en hel del idéer och kod från &lt;a href=&#34;https://www.twitch.tv/quill18/&#34;&gt;Quill18&lt;/a&gt; för att ladda nivå-miljön från en bildfil på disk, det betyder att spelet faktiskt redan nu är moddningsbart.. Tyvärr visade det sig att lagringen av level-datan inte är kompatibel med webGL  (även om chrome faktiskt spottar ur sig rätt address i konsolen).&lt;/p&gt;
 
-&lt;p&gt;Vill man provspela finns ett installationspaket &lt;a href=&#34;https://frklan.github.io/post/PlFrMr/pLtFrMr.pkg&#34;&gt;här&lt;/a&gt;. Observera att installeraren inte är signerad (md5 hashen är &amp;ldquo;F0C99DCAE135354EC445847C23DD2D60&amp;rdquo;)!
-&lt;img src=&#34;https://frklan.github.io/images/PlFrMr/PlFrMr2.png&#34; width=600px&gt;&lt;/p&gt;
+&lt;p&gt;Vill man provspela finns ett installationspaket &lt;a href=&#34;https://www.yellowfortyfour.com/post/PlFrMr/pLtFrMr.pkg&#34;&gt;här&lt;/a&gt;. Observera att installeraren inte är signerad (md5 hashen är &amp;ldquo;F0C99DCAE135354EC445847C23DD2D60&amp;rdquo;)!
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/PlFrMr/PlFrMr2.png&#34; width=600px&gt;&lt;/p&gt;
 
 &lt;p&gt;Dessvärre har jag mer eller mindre redan gett upp hoppet att få en startskärm eller nån fräck animering när man kommer &amp;ldquo;i mål&amp;rdquo;. Vi får se vad som händer framöver, men det mesta lutar på att jag börjar om med ett mindre projekt.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Tillverkning av gjutform</title>
-      <link>https://frklan.github.io/blog/2017/03/15/tillverkning-av-gjutform/</link>
+      <link>https://www.yellowfortyfour.com/blog/2017/03/15/tillverkning-av-gjutform/</link>
       <pubDate>Wed, 15 Mar 2017 19:30:23 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2017/03/15/tillverkning-av-gjutform/</guid>
-      <description>&lt;p&gt;I måndags var det äntligen få tillverka min gips-gjutform, Negar höll lektion i gjutformstillverkning på &lt;a href=&#34;http://www.taget.se&#34;&gt;Kulturföreningen Tåget&lt;/a&gt;. Espressokoppen jag &lt;a href=&#34;https://frklan.github.io/blog/2016/12/19/måla-med-blender/&#34;&gt;designade i julas&lt;/a&gt; är ett stort steg mot att bli verklighet!
+      <guid>https://www.yellowfortyfour.com/blog/2017/03/15/tillverkning-av-gjutform/</guid>
+      <description>&lt;p&gt;I måndags var det äntligen få tillverka min gips-gjutform, Negar höll lektion i gjutformstillverkning på &lt;a href=&#34;http://www.taget.se&#34;&gt;Kulturföreningen Tåget&lt;/a&gt;. Espressokoppen jag &lt;a href=&#34;https://www.yellowfortyfour.com/blog/2016/12/19/måla-med-blender/&#34;&gt;designade i julas&lt;/a&gt; är ett stort steg mot att bli verklighet!
 
 &lt;p&gt;
-&lt;img src=&#34;https://frklan.github.io/images/gjutform/IMG_2359+62.png&#34; width=&#34;700px&#34;&gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/gjutform/IMG_2359+62.png&#34; width=&#34;700px&#34;&gt;
 Efter mycket pill och jobb med att täta träramen, först med lera på insidan och sedan tjocktblandat gips på utsidan kunde jag till slut hälla tunnare gips i formen.
 &lt;/p&gt;&lt;/p&gt;
 
 &lt;p&gt;
-&lt;img src=&#34;https://frklan.github.io/images/gjutform/IMG_2358+63.png&#34; width=&#34;700px&#34;&gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/gjutform/IMG_2358+63.png&#34; width=&#34;700px&#34;&gt;
 Första halvan blev klar måndags och sista delen igår, efter att gipset fått bränna strax över en timma var det dags att se om allt var ett hopplöst fiasko eller inte. Till att börja med såg det anska mörkt ut då de två delarna satt ihop. Som berget.. Med en hel del våld, gy och svordommar fick jag tillslut isär halvorna.
 &lt;/p&gt;
-&lt;img src=&#34;https://frklan.github.io/images/gjutform/IMG_2364.jpg&#34;&gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/gjutform/IMG_2364.jpg&#34;&gt;
 &lt;p&gt;
 I slutändan blev det en jättefin gjutform och det borde gå tokfint att köra en hel hög koppar. Tack Negar för all hjälp med gjutformen!
 &lt;/p&gt;</description>
@@ -166,10 +166,10 @@ I slutändan blev det en jättefin gjutform och det borde gå tokfint att köra 
     
     <item>
       <title>RunnerGame</title>
-      <link>https://frklan.github.io/blog/2017/03/12/runnergame/</link>
+      <link>https://www.yellowfortyfour.com/blog/2017/03/12/runnergame/</link>
       <pubDate>Sun, 12 Mar 2017 17:47:17 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2017/03/12/runnergame/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2017/03/12/runnergame/</guid>
       <description>&lt;p&gt;Härromveckan blev jag sugen på att lära mig Unity och spelprogrammering igen, lekte lite med SpriteKit i Swift för runt ett-å-ett-halvt år sen men det blev aldrigt nåt vettigt.&lt;br /&gt;
 
 &lt;p&gt;Man kan inte beskylla Unity för att vara vidare självinstruerande, men efter en stund på youtube känns interfacet och kopplingen mot C# är riktigt okej. Däremot suger kodeditorn MonoDevelop; den har nån fix idé att formatera koden heltokigt. Som tur är går det att justera, även om man får spendera bra mycket tid i inställningsdialogen.
@@ -183,8 +183,8 @@ I slutändan blev det en jättefin gjutform och det borde gå tokfint att köra 
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;link rel=&#34;shortcut icon&#34; href=&#34;https://frklan.github.io/post/RunnerGame0312/TemplateData/favicon.ico&#34; /&gt;
-&lt;script src=&#34;https://frklan.github.io/post/RunnerGame0312/TemplateData/UnityProgress.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;link rel=&#34;shortcut icon&#34; href=&#34;https://www.yellowfortyfour.com/post/RunnerGame0312/TemplateData/favicon.ico&#34; /&gt;
+&lt;script src=&#34;https://www.yellowfortyfour.com/post/RunnerGame0312/TemplateData/UnityProgress.js&#34;&gt;&lt;/script&gt;
 &lt;/head&gt;
 &lt;body class=&#34;template&#34;&gt;
 &lt;div class=&#34;template-wrap clear&#34;&gt;
@@ -193,8 +193,8 @@ I slutändan blev det en jättefin gjutform och det borde gå tokfint att köra 
   &lt;div class=&#34;logo&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/div&gt;
-&lt;script src=&#34;https://frklan.github.io/post/RunnerGame0312/runner.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://frklan.github.io/post/RunnerGame0312/Release/UnityLoader.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;script src=&#34;https://www.yellowfortyfour.com/post/RunnerGame0312/runner.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://www.yellowfortyfour.com/post/RunnerGame0312/Release/UnityLoader.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
 &lt;!------&gt;
 
@@ -204,14 +204,14 @@ Ninja-spiten hittade jag på &lt;a href=&#34;http://opengameart.org/content/ninj
     
     <item>
       <title>Föreläsning i 3d-modellering</title>
-      <link>https://frklan.github.io/blog/2017/02/26/f%C3%B6rel%C3%A4sning-i-3d-modellering/</link>
+      <link>https://www.yellowfortyfour.com/blog/2017/02/26/f%C3%B6rel%C3%A4sning-i-3d-modellering/</link>
       <pubDate>Sun, 26 Feb 2017 10:38:41 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2017/02/26/f%C3%B6rel%C3%A4sning-i-3d-modellering/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2017/02/26/f%C3%B6rel%C3%A4sning-i-3d-modellering/</guid>
       <description>&lt;p&gt;Sugen att lära dig &lt;a href=&#34;https://www.blender.org&#34;&gt;Blender&lt;/a&gt;? Torsdagen den andra mars håller jag ett litet föredrag om och visar hur man designar enkla 3d-modeller.
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://frklan.github.io/images/blender20170302/blender20170302.jpg&#34; width=500px&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.yellowfortyfour.com/images/blender20170302/blender20170302.jpg&#34; width=500px&gt;
 Föredraget hålls på &lt;a href=&#34;http://www.taget.se&#34;&gt;Kulturföreningen Tåget&lt;/a&gt; i Borås och börjar klockan 17:00. Målet är att visa hur man designar modeller som går att 3d-printa eller animera.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -222,16 +222,16 @@ Föredraget hålls på &lt;a href=&#34;http://www.taget.se&#34;&gt;Kulturföreni
     
     <item>
       <title>Meddelande från öst</title>
-      <link>https://frklan.github.io/blog/2017/01/14/meddelande-fr%C3%A5n-%C3%B6st/</link>
+      <link>https://www.yellowfortyfour.com/blog/2017/01/14/meddelande-fr%C3%A5n-%C3%B6st/</link>
       <pubDate>Sat, 14 Jan 2017 11:17:45 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2017/01/14/meddelande-fr%C3%A5n-%C3%B6st/</guid>
-      <description>&lt;p&gt;Det börjar trilla in grejjer till &lt;a href=&#34;https://frklan.github.io/blog/2016/12/05/ett-nytt-projekt---controlknob/&#34;&gt;controlKnob&lt;/a&gt;-projektet, fick Cherry MX-switcharna härromdagen.
+      <guid>https://www.yellowfortyfour.com/blog/2017/01/14/meddelande-fr%C3%A5n-%C3%B6st/</guid>
+      <description>&lt;p&gt;Det börjar trilla in grejjer till &lt;a href=&#34;https://www.yellowfortyfour.com/blog/2016/12/05/ett-nytt-projekt---controlknob/&#34;&gt;controlKnob&lt;/a&gt;-projektet, fick Cherry MX-switcharna härromdagen.
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://frklan.github.io/images/eBayCartoonBeautysexy2016/cherrymx.jpg&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.yellowfortyfour.com/images/eBayCartoonBeautysexy2016/cherrymx.jpg&#34;&gt;
 eBay-säljaren &amp;ldquo;eBayCartoonBeautysexy2016&amp;rdquo; måste vara den skönaste jag handlar av. Jag fick (som vanligt) ett litet meddelande som bad om högsta betyg på affären, men det var gjort som en seriestrip med grunden i en gammal kinesisk saga!
-&lt;img src=&#34;https://frklan.github.io/images/eBayCartoonBeautysexy2016/ebayCartoonBeautysexy2016-1.jpg&#34;&gt; &lt;img src=&#34;https://frklan.github.io/images/eBayCartoonBeautysexy2016/ebayCartoonBeautysexy2016-2.jpg&#34;&gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/eBayCartoonBeautysexy2016/ebayCartoonBeautysexy2016-1.jpg&#34;&gt; &lt;img src=&#34;https://www.yellowfortyfour.com/images/eBayCartoonBeautysexy2016/ebayCartoonBeautysexy2016-2.jpg&#34;&gt;
 Det är dom små sakerna som överaskar; &lt;a href=&#34;http://www.ebay.com/usr/beautysexy2016?_trksid=p2047675.l2559&#34;&gt;eBayCartoonBeautysexy2016&lt;/a&gt; är definitivt en säljare jag kan rekommendera.
 &lt;/br&gt;
 &lt;/br&gt;
@@ -240,10 +240,10 @@ Snart dags att besluta den slutliga designen och börja rita mönsterkort..&lt;/
     
     <item>
       <title>Linkage - Mekaniksimulering Made Simple</title>
-      <link>https://frklan.github.io/blog/2016/12/27/linkage---mekaniksimulering-made-simple/</link>
+      <link>https://www.yellowfortyfour.com/blog/2016/12/27/linkage---mekaniksimulering-made-simple/</link>
       <pubDate>Tue, 27 Dec 2016 16:38:20 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2016/12/27/linkage---mekaniksimulering-made-simple/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2016/12/27/linkage---mekaniksimulering-made-simple/</guid>
       <description>&lt;p&gt;Såg &lt;a href=&#34;http://blog.rectorsquid.com/linkage-mechanism-designer-and-simulator/&#34;&gt;Linkage&lt;/a&gt; för ett tag sen, provkörde häromdagen.
 &lt;/p&gt;
 
@@ -256,15 +256,15 @@ Snart dags att besluta den slutliga designen och börja rita mönsterkort..&lt;/
     
     <item>
       <title>Måla med blender</title>
-      <link>https://frklan.github.io/blog/2016/12/19/m%C3%A5la-med-blender/</link>
+      <link>https://www.yellowfortyfour.com/blog/2016/12/19/m%C3%A5la-med-blender/</link>
       <pubDate>Mon, 19 Dec 2016 21:40:43 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2016/12/19/m%C3%A5la-med-blender/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2016/12/19/m%C3%A5la-med-blender/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.blender.org/&#34;&gt;Blender&lt;/a&gt; är ett gräsligt roligt program, här kan man sitta bort många timmar! &lt;br&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Jag håller på att lära mig det pånytt efter ett års uppehåll, har kommit en liten bit påväg.
-&lt;img src=&#34;https://frklan.github.io/images/mala-med-blender/blender.png&#34;&gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/mala-med-blender/blender.png&#34;&gt;
 Stötte just på ett smärre problem - blender vägrar spara reder-outputen dit jag ber den, märkligt..&lt;/br&gt;&lt;/p&gt;
 
 &lt;p&gt;Hursomhelst, vill jag försöka göra en modell av en kaffe/espressomugg som jag kan gjuta i lera med en metod kallad &amp;ldquo;slip casting&amp;rdquo;: &lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/puypgKmF75s&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt; Dessutom har jag en idé tll en kortfilm där jag vill animera en av huvudrollerna.&lt;/p&gt;</description>
@@ -272,36 +272,36 @@ Stötte just på ett smärre problem - blender vägrar spara reder-outputen dit 
     
     <item>
       <title>Handla prylar på eBay</title>
-      <link>https://frklan.github.io/blog/2016/12/11/handla-prylar-p%C3%A5-ebay/</link>
+      <link>https://www.yellowfortyfour.com/blog/2016/12/11/handla-prylar-p%C3%A5-ebay/</link>
       <pubDate>Sun, 11 Dec 2016 21:07:42 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2016/12/11/handla-prylar-p%C3%A5-ebay/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2016/12/11/handla-prylar-p%C3%A5-ebay/</guid>
       <description>&lt;p&gt;Lysdioder, tangenbordsknappar, tangenttoppar, kondingar och en del annat som behövs för controlKnob-projektet beställt på eBay. Synd att det tar sån gräslig tid att få hem grejjerna..&lt;/p&gt;
 
 &lt;p&gt;
-&lt;img src=&#34;https://frklan.github.io/images/ebayshopping161211.png&#34;  width=&#34;550px&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/ebayshopping161211.png&#34;  width=&#34;550px&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;märkliga-ebay-priser&#34;&gt;Märkliga eBay-priser&lt;/h3&gt;
 
 &lt;p&gt;Något jag inte riktigt fattar är hur det går att köpa en färdig atmega32u4-baserad arduino-klon för ~35 spänn..
-&lt;img src=&#34;https://frklan.github.io/images/promicro.png&#34; &gt;&lt;/p&gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/promicro.png&#34; &gt;&lt;/p&gt;
 
 &lt;p&gt;..när lösa processorer går lös minst 40 kr, för att inte tala om att köpa från svenska affärer!
-&lt;img src=&#34;https://frklan.github.io/images/atmega32u4-au.png&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/atmega32u4-au.png&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;Jag skulle helst köra hela controlKnob-projektet på ett egen mönsterkort istället för att &amp;ldquo;sandwitcha&amp;rdquo; en pro micro, men med sånna komponentpriser är det inte lönt.. Råkar man välja fel säljare blir det ännu dyrare.
-&lt;img src=&#34;https://frklan.github.io/images/atmega32u4-au333.png&#34; &gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/atmega32u4-au333.png&#34; &gt;
 Tur det är fri frakt i alla fall.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Keypad-klass</title>
-      <link>https://frklan.github.io/blog/2016/12/08/keypad-klass/</link>
+      <link>https://www.yellowfortyfour.com/blog/2016/12/08/keypad-klass/</link>
       <pubDate>Thu, 08 Dec 2016 21:58:04 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2016/12/08/keypad-klass/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2016/12/08/keypad-klass/</guid>
       <description>&lt;p&gt;Sådär, den här är jag rätt nöjd med. Jag hittar inga (större) minnesläckor och allt beter sig som det skall.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -399,49 +399,49 @@ void KEYPAD::update()
     
     <item>
       <title>Ett nytt projekt - &#34;controlKnob&#34;</title>
-      <link>https://frklan.github.io/blog/2016/12/05/ett-nytt-projekt---controlknob/</link>
+      <link>https://www.yellowfortyfour.com/blog/2016/12/05/ett-nytt-projekt---controlknob/</link>
       <pubDate>Mon, 05 Dec 2016 20:34:02 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2016/12/05/ett-nytt-projekt---controlknob/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2016/12/05/ett-nytt-projekt---controlknob/</guid>
       <description>&lt;p&gt;Ett nytt arduino-projekt börjar ta form - controlKnob. En liten låda med ratt och en handfull knappar. &lt;br&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://frklan.github.io/images/controlKnob/controlKnob20161205.jpg&#34; width=&#34;550px&#34; &gt; &lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.yellowfortyfour.com/images/controlKnob/controlKnob20161205.jpg&#34; width=&#34;550px&#34; &gt; &lt;br&gt;
 Tanken är att kunna välja verktyg eller styra funktioner i Photoshop och Blender, eventuellt blir det flera moduler som enkelt snäpps ihop till en hel kontrolpanel.&lt;br&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;en-klass-för-ett-tangenbord&#34;&gt;en klass för ett tangenbord?&lt;/h3&gt;
 
 &lt;p&gt;En klass måste man ha, hur gör jag ett tangentbord?
-&lt;img src=&#34;https://frklan.github.io/images/controlKnob/keypadclass.png&#34; &gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/controlKnob/keypadclass.png&#34; &gt;
 Kan jag anvädna den?
-&lt;img src=&#34;https://frklan.github.io/images/controlKnob/keypadclassnextkey.png&#34; &gt;
-&lt;img src=&#34;https://frklan.github.io/images/controlKnob/keypadclassuse.png&#34; &gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/controlKnob/keypadclassnextkey.png&#34; &gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/controlKnob/keypadclassuse.png&#34; &gt;
 Aningens bökigt, kanske? Får fila lite mer, eventuellt kan jag flytta in reaktionen på knapparna i klassen också..&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>TFT clock</title>
-      <link>https://frklan.github.io/blog/2016/12/03/tft-clock/</link>
+      <link>https://www.yellowfortyfour.com/blog/2016/12/03/tft-clock/</link>
       <pubDate>Sat, 03 Dec 2016 13:39:29 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2016/12/03/tft-clock/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2016/12/03/tft-clock/</guid>
       <description>&lt;p&gt;TFT clock finns nu på &lt;a href=&#34;https://gitlab.com/frklan/TFTclock_UTFT/&#34;&gt;gitlabs&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>12 bilder</title>
-      <link>https://frklan.github.io/blog/2016/11/07/12-bilder/</link>
+      <link>https://www.yellowfortyfour.com/blog/2016/11/07/12-bilder/</link>
       <pubDate>Mon, 07 Nov 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2016/11/07/12-bilder/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://frklan.github.io/images/23502FT01AC01.jpg&#34; align=&#34;right&#34; width=&#34;200px&#34; &gt;&lt;/p&gt;
+      <guid>https://www.yellowfortyfour.com/blog/2016/11/07/12-bilder/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.yellowfortyfour.com/images/23502FT01AC01.jpg&#34; align=&#34;right&#34; width=&#34;200px&#34; &gt;&lt;/p&gt;
 
 &lt;p&gt;Mellan den 7e november och 10e december visar jag 12 bilder från Peking på &lt;a href=&#34;http://www.vastsverige.com/kulturkvarteret-pedagogien-hjo/b/235934/12-bilder-fran-Peking-pagar-7-november-10-december&#34;&gt;Kulturkvarteret Pedagogien i Hjo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Bilderna är från december 2014 och av en händelse råkade mitt besök i Peking bli samma vecka som APEC-toppmötet (Asia-Pacific Economic Cooperation). För att visa upp Peking från sin bästa sida och minska smogen hade regeringen stängt tusentals fabriker i och runt Peking, vilket resulterade i vackert vinterväder med en klarblå himmel.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://frklan.github.io/images/12_bilder_november-december_ 2016_Hjo_50x70.jpg&#34; align=&#34;right&#34; width=&#34;200px&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.yellowfortyfour.com/images/12_bilder_november-december_ 2016_Hjo_50x70.jpg&#34; align=&#34;right&#34; width=&#34;200px&#34;&gt;
 Många av de kineser jag träffade i Peking de här dagarna, pekade uppåt och ställde frågan; &amp;ldquo;Do you know what this colour is?&amp;rdquo;. Svaret var &amp;ldquo;APEC-blue&amp;rdquo;. Termen &amp;ldquo;APEC-blue&amp;rdquo; är tvetydigt och anspelar på något vackert och flyktigt. Precis som Pekings ovanligt blå himmel de här dagarna.&lt;/p&gt;
 
 &lt;p&gt;Bilderna jag visar här är kopierade med en metod som kallas cyanotypi och ger en karakteristisk blå ton, vilket passar perfekt med mitt besök i Peking.&lt;/p&gt;</description>

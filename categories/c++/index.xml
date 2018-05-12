@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fredrik Andersson</title>
-    <link>https://frklan.github.io/categories/c&#43;&#43;/index.xml</link>
+    <link>https://www.yellowfortyfour.com/categories/c&#43;&#43;/index.xml</link>
     <description>Recent content on Fredrik Andersson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://frklan.github.io/categories/c&#43;&#43;/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.yellowfortyfour.com/categories/c&#43;&#43;/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Keypad-klass</title>
-      <link>https://frklan.github.io/blog/2016/12/08/keypad-klass/</link>
+      <link>https://www.yellowfortyfour.com/blog/2016/12/08/keypad-klass/</link>
       <pubDate>Thu, 08 Dec 2016 21:58:04 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2016/12/08/keypad-klass/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2016/12/08/keypad-klass/</guid>
       <description>&lt;p&gt;Sådär, den här är jag rätt nöjd med. Jag hittar inga (större) minnesläckor och allt beter sig som det skall.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -110,32 +110,32 @@ void KEYPAD::update()
     
     <item>
       <title>Ett nytt projekt - &#34;controlKnob&#34;</title>
-      <link>https://frklan.github.io/blog/2016/12/05/ett-nytt-projekt---controlknob/</link>
+      <link>https://www.yellowfortyfour.com/blog/2016/12/05/ett-nytt-projekt---controlknob/</link>
       <pubDate>Mon, 05 Dec 2016 20:34:02 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2016/12/05/ett-nytt-projekt---controlknob/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2016/12/05/ett-nytt-projekt---controlknob/</guid>
       <description>&lt;p&gt;Ett nytt arduino-projekt börjar ta form - controlKnob. En liten låda med ratt och en handfull knappar. &lt;br&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://frklan.github.io/images/controlKnob/controlKnob20161205.jpg&#34; width=&#34;550px&#34; &gt; &lt;br&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.yellowfortyfour.com/images/controlKnob/controlKnob20161205.jpg&#34; width=&#34;550px&#34; &gt; &lt;br&gt;
 Tanken är att kunna välja verktyg eller styra funktioner i Photoshop och Blender, eventuellt blir det flera moduler som enkelt snäpps ihop till en hel kontrolpanel.&lt;br&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;en-klass-för-ett-tangenbord&#34;&gt;en klass för ett tangenbord?&lt;/h3&gt;
 
 &lt;p&gt;En klass måste man ha, hur gör jag ett tangentbord?
-&lt;img src=&#34;https://frklan.github.io/images/controlKnob/keypadclass.png&#34; &gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/controlKnob/keypadclass.png&#34; &gt;
 Kan jag anvädna den?
-&lt;img src=&#34;https://frklan.github.io/images/controlKnob/keypadclassnextkey.png&#34; &gt;
-&lt;img src=&#34;https://frklan.github.io/images/controlKnob/keypadclassuse.png&#34; &gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/controlKnob/keypadclassnextkey.png&#34; &gt;
+&lt;img src=&#34;https://www.yellowfortyfour.com/images/controlKnob/keypadclassuse.png&#34; &gt;
 Aningens bökigt, kanske? Får fila lite mer, eventuellt kan jag flytta in reaktionen på knapparna i klassen också..&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>TFT clock</title>
-      <link>https://frklan.github.io/blog/2016/12/03/tft-clock/</link>
+      <link>https://www.yellowfortyfour.com/blog/2016/12/03/tft-clock/</link>
       <pubDate>Sat, 03 Dec 2016 13:39:29 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2016/12/03/tft-clock/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2016/12/03/tft-clock/</guid>
       <description>&lt;p&gt;TFT clock finns nu på &lt;a href=&#34;https://gitlab.com/frklan/TFTclock_UTFT/&#34;&gt;gitlabs&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>

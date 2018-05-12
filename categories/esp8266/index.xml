@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fredrik Andersson</title>
-    <link>https://frklan.github.io/categories/esp8266/index.xml</link>
+    <link>https://www.yellowfortyfour.com/categories/esp8266/index.xml</link>
     <description>Recent content on Fredrik Andersson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://frklan.github.io/categories/esp8266/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.yellowfortyfour.com/categories/esp8266/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>TFT clock</title>
-      <link>https://frklan.github.io/blog/2016/12/03/tft-clock/</link>
+      <link>https://www.yellowfortyfour.com/blog/2016/12/03/tft-clock/</link>
       <pubDate>Sat, 03 Dec 2016 13:39:29 +0100</pubDate>
       
-      <guid>https://frklan.github.io/blog/2016/12/03/tft-clock/</guid>
+      <guid>https://www.yellowfortyfour.com/blog/2016/12/03/tft-clock/</guid>
       <description>&lt;p&gt;TFT clock finns nu på &lt;a href=&#34;https://gitlab.com/frklan/TFTclock_UTFT/&#34;&gt;gitlabs&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
